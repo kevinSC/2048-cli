@@ -1,4 +1,4 @@
 #!/bin/bash
-#g++ -g -std=gnu++14  game_2048.cpp -o ob
-g++ -g -std=gnu++14  pruebas.cpp -o ob
-./ob
+g++ -g -std=gnu++14  game_2048.cpp -o ob
+#g++ -g -std=gnu++14  main.cpp -o ob
+#s./ob

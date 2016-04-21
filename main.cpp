@@ -71,7 +71,8 @@ void mover(int m[4][4]){
         switch(caso){
         case 1:
             for(int i=0; i < 4; i++) {
-                m[][]
+                int p[4];
+                m[0][i]
             }
         }
     }
