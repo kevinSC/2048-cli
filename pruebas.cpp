@@ -10,7 +10,7 @@ void apilar(bool direccion, int (*p)) {
 	        }
 	    }
 	} else {
-		for (int i = 4, c = 4; i < 4; i--) {
+		for (int i = 4, c = 4; i > -1; i--) {
 	        if (p[i] != 0) {
 	            p[c] = p[i];
 	            p[i] = 0;
@@ -18,9 +18,10 @@ void apilar(bool direccion, int (*p)) {
 	        }
 		}
  	}
-int main(int argc, char const *argv[]){
-	int arrays[4][4] = {{0,2,0,4},{2,0,0,0},{0,2,2,0},{4,2,0,1};
-	apilar(true, arrays);
+ }
+int main(int argc, char const *argv[]) {
+	int arrays[4] = {0,4,2,0};
+	apilar(false, arrays);
 	for (int i = 0; i < 4; i++)
 		std::cout << arrays[i] << " ";
 	return 0;
